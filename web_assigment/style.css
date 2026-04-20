@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #1e293b, #4c1d95);
+    color: white;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f472b6;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+.hero button {
+    padding: 12px 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #f472b6, #c084fc);
+    border: none;
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #2c2c3a;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+/* Skills */
+.skills-list span {
+    display: inline-block;
+    background: #2c2c3a;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+/* Images */
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+thead {
+    background: #c084fc;
+}
+
+/* Form */
+form {
+    background: #2c2c3a;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #f472b6, #c084fc);
+    border: none;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
