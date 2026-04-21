@@ -5,13 +5,12 @@ body {
     color: white;
 }
 
-/* Header */
 header {
     padding: 20px;
     text-align: center;
 }
 
-/* Navigation */
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -29,7 +28,7 @@ nav a:hover {
     color: #f472b6;
 }
 
-/* HERO */
+
 .hero {
     display: flex;
     justify-content: space-around;
@@ -49,13 +48,11 @@ nav a:hover {
     color: white;
 }
 
-/* Sections */
 section {
     padding: 40px;
     text-align: center;
 }
 
-/* Cards */
 .card-container {
     display: flex;
     justify-content: center;
@@ -70,7 +67,6 @@ section {
     width: 250px;
 }
 
-/* Skills */
 .skills-list span {
     display: inline-block;
     background: #2c2c3a;
@@ -79,13 +75,11 @@ section {
     margin: 5px;
 }
 
-/* Images */
 img {
     width: 250px;
     border-radius: 10px;
 }
 
-/* Table */
 table {
     margin: auto;
     border-collapse: collapse;
@@ -101,7 +95,6 @@ thead {
     background: #c084fc;
 }
 
-/* Form */
 form {
     background: #2c2c3a;
     padding: 20px;
@@ -127,7 +120,6 @@ button {
     color: white;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
